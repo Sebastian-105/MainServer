@@ -1,0 +1,291 @@
+[12:09:20] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[12:09:20] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[12:09:20] [Server thread/INFO]: Loading properties
+[12:09:20] [Server thread/INFO]: Default game type: ADVENTURE
+[12:09:20] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[12:09:20] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[12:09:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:09:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:09:20] [Server thread/INFO]: Debug logging is disabled
+[12:09:21] [Server thread/INFO]: Data value allowed items: 
+[12:09:21] [Server thread/INFO]: Generating keypair
+[12:09:22] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[12:09:23] [Server thread/INFO]: Using default channel type
+[12:09:24] [Server thread/ERROR]: Ambiguous plugin name `Multiverse-Inventories' for files `plugins/Multiverse-Inventories-4.2.3.jar' and `plugins/Multiverse-Inventories-2.5.0-SNAPSHOT.jar' in `plugins'
+[12:09:25] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:09:25] [Server thread/ERROR]: ebean.properties not found
+[12:09:26] [Server thread/INFO]: DataSourcePool [LoginSecurity] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
+[12:09:26] [Server thread/INFO]: SubClassFactory parent ClassLoader [org.bukkit.plugin.java.PluginClassLoader]
+[12:09:27] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.Migration but not supported by DB Platform - ignored
+[12:09:27] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerProfile but not supported by DB Platform - ignored
+[12:09:27] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.ActionEntry but not supported by DB Platform - ignored
+[12:09:27] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerLocation but not supported by DB Platform - ignored
+[12:09:27] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerInventory but not supported by DB Platform - ignored
+[12:09:27] [Server thread/INFO]: Entities enhanced[0] subclassed[5]
+[12:09:28] [Server thread/ERROR]: Could not load 'plugins/Multiverse-Inventories-4.2.3.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/onarandombox/commandhandler/Command
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:254) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+Caused by: java.lang.NoClassDefFoundError: com/onarandombox/commandhandler/Command
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_322]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: com.onarandombox.commandhandler.Command
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_322]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_322]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 6 more
+[12:09:28] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.58
+[12:09:31] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.2;b3fbe8b
+[12:09:31] [Server thread/INFO]: [Timber] Loading Timber v1.1.0
+[12:09:31] [Server thread/INFO]: [LIFESTOLEN] Loading LifeStolen v1.0-SNAPSHOT
+[12:09:31] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v2.0
+[12:09:31] [Server thread/INFO]: [GameModeInventories] Loading GameModeInventories v2.7.2
+[12:09:31] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v2.1.1
+[12:09:31] [Server thread/INFO]: [AutoSave] Loading AutoSave v1.0
+[12:09:31] [Server thread/INFO]: [Vault] Loading Vault v1.5.5-b47
+[12:09:31] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b699
+[12:09:31] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
+[12:09:31] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.16-SNAPSHOT (build 1239)
+[12:09:31] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v1.69
+[12:09:31] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v4.4.1
+[12:09:31] [Server thread/INFO]: [ItemJoin] Loading ItemJoin v5.2.5-RELEASE-b850
+[12:09:31] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5-b725
+[12:09:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.58
+[12:09:34] [Server thread/INFO]:         __    
+[12:09:34] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.58
+[12:09:34] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[12:09:34] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:09:37] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:09:43] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:09:44] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:09:46] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 15244ms)
+[12:09:46] [Server thread/INFO]: [Vault] Enabling Vault v1.5.5-b47
+[12:09:47] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:09:47] [Server thread/INFO]: [Vault] Enabled Version 1.5.5-b47
+[12:09:47] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[12:09:47] [Server thread/INFO]: [ItemJoin] Enabling ItemJoin v5.2.5-RELEASE-b850
+[12:09:48] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'string', line 12, column 3:
+      devine-item:
+      ^
+expected <block end>, but found BlockMappingStart
+ in 'string', line 52, column 4:
+       interact:
+       ^
+
+[12:09:48] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57)
+[12:09:48] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226)
+[12:09:48] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169)
+[12:09:48] [Server thread/WARN]: 	at me.RockinChaos.itemjoin.handlers.ConfigHandler.getLoadedConfig(ConfigHandler.java:280)
+[12:09:48] [Server thread/WARN]: 	at me.RockinChaos.itemjoin.handlers.ConfigHandler.getSource(ConfigHandler.java:260)
+[12:09:48] [Server thread/WARN]: 	at me.RockinChaos.itemjoin.handlers.ConfigHandler.copyFile(ConfigHandler.java:300)
+[12:09:48] [Server thread/WARN]: 	at me.RockinChaos.itemjoin.handlers.ConfigHandler.copyFiles(ConfigHandler.java:112)
+[12:09:48] [Server thread/WARN]: 	at me.RockinChaos.itemjoin.handlers.ConfigHandler.registerClasses(ConfigHandler.java:127)
+[12:09:48] [Server thread/WARN]: 	at me.RockinChaos.itemjoin.handlers.ConfigHandler.getConfig(ConfigHandler.java:891)
+[12:09:48] [Server thread/WARN]: 	at me.RockinChaos.itemjoin.ItemJoin.onEnable(ItemJoin.java:54)
+[12:09:48] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[12:09:48] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+[12:09:48] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+[12:09:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+[12:09:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+[12:09:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+[12:09:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[12:09:48] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[12:09:48] [Server thread/WARN]: Caused by: while parsing a block mapping
+ in 'string', line 12, column 3:
+      devine-item:
+      ^
+expected <block end>, but found BlockMappingStart
+ in 'string', line 52, column 4:
+       interact:
+       ^
+
+[12:09:48] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570)
+[12:09:48] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158)
+[12:09:48] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143)
+[12:09:48] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224)
+[12:09:48] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
+[12:09:48] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:229)
+[12:09:48] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155)
+[12:09:48] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+[12:09:48] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105)
+[12:09:48] [Server thread/WARN]: 	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120)
+[12:09:48] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450)
+[12:09:48] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369)
+[12:09:48] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55)
+[12:09:48] [Server thread/WARN]: 	... 17 more
+[12:09:48] [Server thread/ERROR]: [ItemJoin_ERROR] Cannot load items.yml from disk!
+[12:09:48] [Server thread/ERROR]: [ItemJoin_ERROR] Your items.yml is not using proper YAML Syntax and will not be loaded!
+[12:09:48] [Server thread/ERROR]: [ItemJoin_ERROR] Check your YAML formatting by using a YAML-PARSER such as http://yaml-online-parser.appspot.com/
+[12:09:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:09:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:09:48] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[12:09:48] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[12:09:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:09:48] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:09:49] [Server thread/INFO]: Preparing level "world"
+[12:09:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:09:49] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:09:49] [Server thread/INFO]: Max Entity Collisions: 8
+[12:09:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:09:49] [Server thread/INFO]: Max TNT Explosions: 100
+[12:09:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:09:49] [Server thread/INFO]: Anti X-Ray: true
+[12:09:49] [Server thread/INFO]: 	Engine Mode: 1
+[12:09:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:09:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:09:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:09:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:09:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:09:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:09:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:09:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:09:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:09:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:09:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:09:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:09:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:09:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:09:49] [Server thread/INFO]: Random Lighting Updates: false
+[12:09:49] [Server thread/INFO]: Structure Info Saving: true
+[12:09:49] [Server thread/INFO]: Mob Spawn Range: 4
+[12:09:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:09:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:09:49] [Server thread/INFO]: View Distance: 4
+[12:09:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:09:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:09:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:09:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:09:49] [Server thread/INFO]: Clear tick list: false
+[12:09:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:09:50] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:09:50] [Server thread/INFO]: Max height for cactus growth 100. Max height for reed growth 100
+[12:09:50] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:09:50] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:09:50] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:09:50] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:09:50] [Server thread/INFO]: Water over lava flow speed: 5
+[12:09:50] [Server thread/INFO]: Fix TNT cannons: false
+[12:09:50] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:09:50] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:09:50] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:09:50] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:09:50] [Server thread/INFO]: World async lighting: false
+[12:09:51] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:09:51] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:09:51] [Server thread/INFO]: Max Entity Collisions: 8
+[12:09:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:09:51] [Server thread/INFO]: Max TNT Explosions: 100
+[12:09:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:09:51] [Server thread/INFO]: Anti X-Ray: true
+[12:09:51] [Server thread/INFO]: 	Engine Mode: 1
+[12:09:51] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:09:51] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:09:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:09:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:09:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:09:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:09:51] [Server thread/INFO]: Random Lighting Updates: false
+[12:09:51] [Server thread/INFO]: Structure Info Saving: true
+[12:09:51] [Server thread/INFO]: Mob Spawn Range: 4
+[12:09:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:09:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:09:51] [Server thread/INFO]: View Distance: 4
+[12:09:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:09:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:09:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:09:51] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:09:51] [Server thread/INFO]: Clear tick list: false
+[12:09:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:09:51] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:09:51] [Server thread/INFO]: Max height for cactus growth 100. Max height for reed growth 100
+[12:09:51] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:09:51] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:09:51] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:09:51] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:09:51] [Server thread/INFO]: Water over lava flow speed: 5
+[12:09:51] [Server thread/INFO]: Fix TNT cannons: false
+[12:09:51] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:09:51] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:09:51] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:09:51] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:09:51] [Server thread/INFO]: World async lighting: false
+[12:09:51] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:09:51] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:09:51] [Server thread/INFO]: Max Entity Collisions: 8
+[12:09:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:09:51] [Server thread/INFO]: Max TNT Explosions: 100
+[12:09:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:09:51] [Server thread/INFO]: Anti X-Ray: true
+[12:09:51] [Server thread/INFO]: 	Engine Mode: 1
+[12:09:51] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:09:51] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:09:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:09:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:09:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:09:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:09:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:09:51] [Server thread/INFO]: Random Lighting Updates: false
+[12:09:51] [Server thread/INFO]: Structure Info Saving: true
+[12:09:52] [Server thread/INFO]: Mob Spawn Range: 4
+[12:09:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:09:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:09:52] [Server thread/INFO]: View Distance: 4
+[12:09:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:09:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:09:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:09:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:09:52] [Server thread/INFO]: Clear tick list: false
+[12:09:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:09:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:09:52] [Server thread/INFO]: Max height for cactus growth 100. Max height for reed growth 100
+[12:09:52] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:09:52] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:09:52] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:09:52] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:09:52] [Server thread/INFO]: Water over lava flow speed: 5
+[12:09:52] [Server thread/INFO]: Fix TNT cannons: false
+[12:09:52] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:09:52] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:09:52] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:09:52] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:09:52] [Server thread/INFO]: World async lighting: false
+[12:09:52] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3881904783498259859)
+[12:09:53] [Server thread/INFO]: Preparing spawn area: 0%
+[12:09:54] [Server thread/INFO]: Preparing spawn area: 4%
+[12:09:55] [Server thread/INFO]: Preparing spawn area: 16%
+[12:09:56] [Server thread/INFO]: Preparing spawn area: 19%
+[12:09:57] [Server thread/INFO]: Preparing spawn area: 32%
+[12:09:58] [Server thread/INFO]: Preparing spawn area: 42%
+[12:09:59] [Server thread/INFO]: Preparing spawn area: 53%
+[12:10:00] [Server thread/INFO]: Preparing spawn area: 80%
+[12:10:01] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3881904783498259859)

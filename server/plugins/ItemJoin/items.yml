@@ -1,0 +1,65 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+# 
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+items:
+  devine-item:
+    id: TORCH
+    slot: 5
+    name: '&3Survival'
+    lore:
+    - '&7A right click to tp to survival'
+    interact:
+    - 'server: survival'
+    - 'message: &eSending you to the survival server!'
+    inventory:
+    - 'server: survival'
+    - 'message: &eSending you to the survival server!'
+    enchantment: DURABILITY:3, KNOCKBACK:10
+    itemflags: unbreakable, hide-flags, self-drops, death-drops, CreativeBypass
+    triggers: join, respawn, world-switch, region-enter
+    permission-node: itemjoin.ultra
+    enabled-regions: region1, region2
+    enabled-worlds: world, world_nether, world_the_end
+  map-item:
+    id: BEDROCK
+    slot: 2
+    name: '&cCreative'
+    lore:
+    - '&7Right click to tp to creative'
+    interact:
+    - 'server: creative'
+    - 'message: &eSending you to the creative server!'
+    inventory:
+    - 'server: creative'
+    - 'message: &eSending you to the creative server!'
+    itemflags: item-store, unbreakable, hide-flags, death-drops, self-drops, CreativeBypass
+    triggers: join, respawn, world-switch
+    permission-node: itemjoin.map
+    enabled-worlds: ALL
+  gamemode-token:
+    id: COMPASS
+    slot: 5
+    name: '&cMain server'
+    lore:
+    - '&7Right-Click to tp to spawn'
+   interact:
+    - 'server: world'
+    - 'message: &eSending you to the main server!'
+   inventory:
+    - 'server: world'
+    - 'message: &eSending you to the main server!'
+    commands-sound: NOTE_PLING
+    commands-cooldown: 2
+    itemflags: item-store, death-drops, self-drops, hide-flags, disposable
+    triggers: join, respawn, world-switch
+    permission-node: itemjoin.token
+    enabled-worlds: world, world_nether, world_the_end
+  book-item:
+    

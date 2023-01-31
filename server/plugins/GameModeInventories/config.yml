@@ -1,0 +1,54 @@
+armor: true
+debug: false
+dont_spam_chat: false
+enderchest: true
+no_drops: false
+no_falling_drops: false
+no_pickups: false
+remove_potions: true
+restrict_creative: false
+save_on_death: true
+survival_on_world_change: true
+xp: true
+track_creative_place:
+  enabled: false
+  break_no_drop: false
+  no_piston_move: false
+  attached_block: false
+  worlds:
+  - world
+  - survival
+  - prision
+  - world_nether
+  - world_the_end
+  dont_track:
+  - STONE
+  - DIRT
+creative_blacklist: false
+blacklist:
+- TNT
+- BEDROCK
+- LAVA_BUCKET
+- ARMOR_STAND
+break_bedrock: false
+command_blacklist: false
+commands:
+- give
+- i
+- buy
+- sell
+custom_attributes: false
+restrict_spectator: false
+bypass:
+  inventories: true
+  items: false
+  blacklist: false
+  survival: false
+  commands: false
+uuid_conversion_done: true
+storage:
+  mysql:
+    url: mysql://localhost:3306/GMI
+    user: bukkit
+    password: mysecurepassword
+  database: sqlite

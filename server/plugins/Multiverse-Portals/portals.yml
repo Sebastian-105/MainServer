@@ -1,0 +1,63 @@
+portals:
+  survival:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Sebastian105
+    location: 0.0,65.0,0.0:0.0,69.0,0.0
+    world: survival
+  suv:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Sebastian105
+    location: -1.0,4.0,24.0:1.0,8.0,24.0
+    world: world
+    destination: survival
+  cell1:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Sebastian105
+    location: -8.0,8.0,-1.0:-8.0,10.0,1.0
+    world: prision
+  end:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Sebastian105
+    location: 716.0,27.0,70.0:719.0,27.0,72.0
+    world: survival
+    destination: p:end2
+  end2:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Sebastian105
+    location: -1.0,62.0,-1.0:-1.0,62.0,-1.0
+    world: world_the_end
+  creative:
+    entryfee:
+      currency: -1
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Sebastian105
+    location: 24.0,4.0,-1.0:24.0,7.0,1.0
+    world: world

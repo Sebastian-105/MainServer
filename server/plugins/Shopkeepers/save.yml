@@ -1,0 +1,24 @@
+'1':
+  uniqueId: 5723a931-fe6b-4e7d-8103-711cba8b0d2a
+  name: Op Trader
+  world: world
+  x: -24
+  y: 4
+  z: 24
+  type: admin
+  object: villager
+  uuid: 62aeb1c3-73c4-42a5-96e3-4c3ac1492397
+  prof: 0
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BLOCK
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD_BLOCK
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: BEDROCK
